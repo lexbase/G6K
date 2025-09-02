@@ -1,0 +1,71 @@
+version: '3.5'
+
+services:
+  reverse-proxy:
+    restart: always
+    # The official v2 Traefik docker image
+    image: traefik:v2.9
+    # Enables the web UI and tells Traefik to listen to docker
+    command: --api.insecure=true --providers.docker
+    ports:
+      # The HTTP port
+      - "80:80"
+      # The Web UI (enabled by --api.insecure=true)
+      - "8080:8080"
+    volumes:
+      # So that Traefik can listen to the Docker events
+      - /var/run/docker.sock:/var/run/docker.sock
+  whoami:
+    restart: always
+    # A container that exposes an API to show its IP address
+    image: traefik/whoami
+    labels:
+      - "traefik.http.routers.whoami.rule=Host(`whoami.docker.localhost`)"
+  g6k:
+    container_name: g6k
+    restart: always
+    image: g6k.img
+    build: 
+      context: /home/edeneve/g6k
+      dockerfile: Dockerfile.sf4
+      args:
+        Env: dev
+    ports:
+      - "8081:80"
+    volumes:
+      - /home/edeneve/g6k:/app
+      - /var/tmp:/var/tmp
+    labels:
+      - "traefik.http.routers.g6k.rule=Host(`g6k.docker.localhost`)"
+
+
+
+
+
+# pour supprimer les images et les re-build :
+# arrêter tous les containers puis "dprune"
+
+# lancer les dockers via :
+# sudo /etc/init.d/apache2 stop ; sudo docker stop $(sudo docker ps -a -q) ; cd /home/edeneve/g6k && docker-compose up --build reverse-proxy g6k
+
+# pour aller sur le container et lancer des commandes :
+# sudo docker exec -it g6k bash
+
+###> doctrine/doctrine-bundle ###
+  database:
+    image: postgres:${POSTGRES_VERSION:-16}-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-app}
+      # You should definitely change the password in production
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-!ChangeMe!}
+      POSTGRES_USER: ${POSTGRES_USER:-app}
+    volumes:
+      - database_data:/var/lib/postgresql/data:rw
+      # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
+      # - ./docker/db/data:/var/lib/postgresql/data:rw
+###< doctrine/doctrine-bundle ###
+
+volumes:
+###> doctrine/doctrine-bundle ###
+  database_data:
+###< doctrine/doctrine-bundle ###

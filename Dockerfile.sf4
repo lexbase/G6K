@@ -1,0 +1,33 @@
+FROM socle-front:php74
+
+# besoin de différentes variables
+ARG Env
+ENV Envi=${Env}
+
+# création des dossiers
+RUN mkdir -p /app/var/log
+RUN mkdir -p /app/var/cache
+RUN mkdir -p /home/ubuntu
+
+# date
+RUN date
+
+# enabling apache modules
+RUN a2enmod rewrite proxy_http ssl headers
+
+# copie des conf
+WORKDIR /app
+COPY ./config/_INIT_/apache.docker.${Env}.conf /etc/apache2/sites-enabled/000-default.conf
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
+COPY ./config/_INIT_/docker_override_php_${Env}.ini /etc/php/8.2/apache2/conf.d/docker_override_php.ini
+
+# lien symbolique
+RUN ln -s /app /var/www/g6k
+
+# dossier pour montage efs
+RUN mkdir -p /mnt/efs-paris-docker-in
+RUN mkdir -p /mnt/efs-s3-docker-in
+
+EXPOSE 80
+
+ENTRYPOINT ./config/_INIT_/docker_start.sh

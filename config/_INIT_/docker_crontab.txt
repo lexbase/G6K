@@ -1,0 +1,2 @@
+@reboot sudo rm -rf /home/ubuntu/Lexbase/var/cache/prod/* ; git -C /home/ubuntu/Lexbase stash ; git -C /home/ubuntu/Lexbase checkout master && git -C /home/ubuntu/Lexbase pull ; sudo docker stop $(sudo docker ps -a -q) ; sudo docker rm $(sudo docker ps -a -q) ; sh /home/ubuntu/Lexbase/config/_INIT_/automaj_docker.sh
+*/10 20-23 * * * sh /home/ubuntu/Lexbase/config/_INIT_/automep.sh >> /var/tmp/automep.log
