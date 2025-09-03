@@ -96,4 +96,8 @@ t.add("The number of elements in this collection should be a multiple of {{ comp
 t.add("This value should satisfy at least one of the following constraints:", "Questo valore dovrebbe soddisfare almeno uno dei vincoli seguenti:", "validators", "it");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Ciascun elemento di questa collezione dovrebbe soddisfare il suo insieme di vincoli.", "validators", "it");
 t.add("This value is not a valid International Securities Identification Number (ISIN).", "Questo valore non \u00e8 un codice identificativo internazionale di valori mobiliari (ISIN) valido.", "validators", "it");
+t.add("This value should be a valid expression.", "Questo valore dovrebbe essere un'espressione valida.", "validators", "it");
+t.add("This value is not a valid CSS color.", "Questo valore non \u00e8 un colore CSS valido.", "validators", "it");
+t.add("This value is not a valid CIDR notation.", "Questo valore non \u00e8 una notazione CIDR valida.", "validators", "it");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Il valore della netmask dovrebbe essere compreso tra {{ min }} e {{ max }}.", "validators", "it");
 })(Translator);

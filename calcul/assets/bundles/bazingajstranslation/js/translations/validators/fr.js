@@ -47,7 +47,7 @@ t.add("This value should be the user's current password.", "Cette valeur doit \u
 t.add("This value should have exactly {{ limit }} character.|This value should have exactly {{ limit }} characters.", "Cette cha\u00eene doit avoir exactement {{ limit }} caract\u00e8re.|Cette cha\u00eene doit avoir exactement {{ limit }} caract\u00e8res.", "validators", "fr");
 t.add("The file was only partially uploaded.", "Le fichier a \u00e9t\u00e9 partiellement transf\u00e9r\u00e9.", "validators", "fr");
 t.add("No file was uploaded.", "Aucun fichier n'a \u00e9t\u00e9 transf\u00e9r\u00e9.", "validators", "fr");
-t.add("No temporary folder was configured in php.ini.", "Aucun r\u00e9pertoire temporaire n'a \u00e9t\u00e9 configur\u00e9 dans le php.ini.", "validators", "fr");
+t.add("No temporary folder was configured in php.ini.", "Aucun r\u00e9pertoire temporaire n'a \u00e9t\u00e9 configur\u00e9 dans le php.ini, ou le r\u00e9pertoire configur\u00e9 n'existe pas.", "validators", "fr");
 t.add("Cannot write temporary file to disk.", "Impossible d'\u00e9crire le fichier temporaire sur le disque.", "validators", "fr");
 t.add("A PHP extension caused the upload to fail.", "Une extension PHP a emp\u00each\u00e9 le transfert du fichier.", "validators", "fr");
 t.add("This collection should contain {{ limit }} element or more.|This collection should contain {{ limit }} elements or more.", "Cette collection doit contenir {{ limit }} \u00e9l\u00e9ment ou plus.|Cette collection doit contenir {{ limit }} \u00e9l\u00e9ments ou plus.", "validators", "fr");
@@ -96,4 +96,8 @@ t.add("The number of elements in this collection should be a multiple of {{ comp
 t.add("This value should satisfy at least one of the following constraints:", "Cette valeur doit satisfaire \u00e0 au moins une des contraintes suivantes :", "validators", "fr");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Chaque \u00e9l\u00e9ment de cette collection doit satisfaire \u00e0 son propre jeu de contraintes.", "validators", "fr");
 t.add("This value is not a valid International Securities Identification Number (ISIN).", "Cette valeur n'est pas un code international de s\u00e9curit\u00e9 valide (ISIN).", "validators", "fr");
+t.add("This value should be a valid expression.", "Cette valeur doit \u00eatre une expression valide.", "validators", "fr");
+t.add("This value is not a valid CSS color.", "Cette valeur n'est pas une couleur CSS valide.", "validators", "fr");
+t.add("This value is not a valid CIDR notation.", "Cette valeur n'est pas une notation CIDR valide.", "validators", "fr");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "La valeur du masque de r\u00e9seau doit \u00eatre comprise entre {{ min }} et {{ max }}.", "validators", "fr");
 })(Translator);

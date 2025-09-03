@@ -54,7 +54,7 @@ t.add("This collection should contain {{ limit }} element or more.|This collecti
 t.add("This collection should contain {{ limit }} element or less.|This collection should contain {{ limit }} elements or less.", "Diese Sammlung sollte {{ limit }} oder weniger Elemente beinhalten.|Diese Sammlung sollte {{ limit }} oder weniger Elemente beinhalten.", "validators", "de");
 t.add("This collection should contain exactly {{ limit }} element.|This collection should contain exactly {{ limit }} elements.", "Diese Sammlung sollte genau {{ limit }} Element beinhalten.|Diese Sammlung sollte genau {{ limit }} Elemente beinhalten.", "validators", "de");
 t.add("Invalid card number.", "Ung\u00fcltige Kartennummer.", "validators", "de");
-t.add("Unsupported card type or invalid card number.", "Nicht unterst\u00fctzer Kartentyp oder ung\u00fcltige Kartennummer.", "validators", "de");
+t.add("Unsupported card type or invalid card number.", "Nicht unterst\u00fctzter Kartentyp oder ung\u00fcltige Kartennummer.", "validators", "de");
 t.add("This is not a valid International Bank Account Number (IBAN).", "Dieser Wert ist keine g\u00fcltige internationale Bankkontonummer (IBAN).", "validators", "de");
 t.add("This value is not a valid ISBN-10.", "Dieser Wert entspricht keiner g\u00fcltigen ISBN-10.", "validators", "de");
 t.add("This value is not a valid ISBN-13.", "Dieser Wert entspricht keiner g\u00fcltigen ISBN-13.", "validators", "de");
@@ -77,7 +77,7 @@ t.add("The image is portrait oriented ({{ width }}x{{ height }}px). Portrait ori
 t.add("An empty file is not allowed.", "Eine leere Datei ist nicht erlaubt.", "validators", "de");
 t.add("The host could not be resolved.", "Der Hostname konnte nicht aufgel\u00f6st werden.", "validators", "de");
 t.add("This value does not match the expected {{ charset }} charset.", "Dieser Wert entspricht nicht dem erwarteten Zeichensatz {{ charset }}.", "validators", "de");
-t.add("This is not a valid Business Identifier Code (BIC).", "Dieser Wert ist kein g\u00fcltiger BIC.", "validators", "de");
+t.add("This is not a valid Business Identifier Code (BIC).", "Dieser Wert ist keine g\u00fcltige internationale Bankleitzahl (BIC).", "validators", "de");
 t.add("Error", "Fehler", "validators", "de");
 t.add("This is not a valid UUID.", "Dies ist keine g\u00fcltige UUID.", "validators", "de");
 t.add("This value should be a multiple of {{ compared_value }}.", "Dieser Wert sollte ein Vielfaches von {{ compared_value }} sein.", "validators", "de");
@@ -96,4 +96,8 @@ t.add("The number of elements in this collection should be a multiple of {{ comp
 t.add("This value should satisfy at least one of the following constraints:", "Dieser Wert sollte eine der folgenden Bedingungen erf\u00fcllen:", "validators", "de");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Jedes Element dieser Sammlung sollte seine eigene Menge an Bedingungen erf\u00fcllen.", "validators", "de");
 t.add("This value is not a valid International Securities Identification Number (ISIN).", "Dieser Wert ist keine g\u00fcltige Internationale Wertpapierkennnummer (ISIN).", "validators", "de");
+t.add("This value should be a valid expression.", "Dieser Wert sollte eine g\u00fcltige Expression sein.", "validators", "de");
+t.add("This value is not a valid CSS color.", "Dieser Wert ist keine g\u00fcltige CSS-Farbe.", "validators", "de");
+t.add("This value is not a valid CIDR notation.", "Dieser Wert entspricht nicht der CIDR-Notation.", "validators", "de");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Der Wert der Subnetzmaske sollte zwischen {{ min }} und {{ max }} liegen.", "validators", "de");
 })(Translator);

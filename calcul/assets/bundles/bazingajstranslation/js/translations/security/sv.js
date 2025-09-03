@@ -15,4 +15,8 @@ t.add("Account has expired.", "Kontot har f\u00f6rfallit.", "security", "sv");
 t.add("Credentials have expired.", "Uppgifterna har f\u00f6rfallit.", "security", "sv");
 t.add("Account is disabled.", "Kontot \u00e4r inaktiverat.", "security", "sv");
 t.add("Account is locked.", "Kontot \u00e4r l\u00e5st.", "security", "sv");
+t.add("Too many failed login attempts, please try again later.", "F\u00f6r m\u00e5nga misslyckade inloggningsf\u00f6rs\u00f6k, f\u00f6rs\u00f6k igen senare.", "security", "sv");
+t.add("Invalid or expired login link.", "Ogiltig eller utg\u00e5ngen inloggningsl\u00e4nk.", "security", "sv");
+t.add("Too many failed login attempts, please try again in %minutes% minute.", "F\u00f6r m\u00e5nga misslyckade inloggningsf\u00f6rs\u00f6k, f\u00f6rs\u00f6k igen om %minutes% minut.", "security", "sv");
+t.add("Too many failed login attempts, please try again in %minutes% minutes.", "F\u00f6r m\u00e5nga misslyckade inloggningsf\u00f6rs\u00f6k, f\u00f6rs\u00f6k igen om %minutes% minuter.", "security", "sv");
 })(Translator);

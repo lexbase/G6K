@@ -95,4 +95,9 @@ t.add("This value is not a valid hostname.", "Este valor no es un nombre de host
 t.add("The number of elements in this collection should be a multiple of {{ compared_value }}.", "El n\u00famero de elementos en esta colecci\u00f3n deber\u00eda ser m\u00faltiplo de {{ compared_value }}.", "validators", "es");
 t.add("This value should satisfy at least one of the following constraints:", "Este valor deber\u00eda satisfacer al menos una de las siguientes restricciones:", "validators", "es");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Cada elemento de esta colecci\u00f3n deber\u00eda satisfacer su propio conjunto de restricciones.", "validators", "es");
+t.add("This value is not a valid International Securities Identification Number (ISIN).", "Este valor no es un n\u00famero de identificaci\u00f3n internacional de valores (ISIN) v\u00e1lido.", "validators", "es");
+t.add("This value should be a valid expression.", "Este valor deber\u00eda ser una expresi\u00f3n v\u00e1lida.", "validators", "es");
+t.add("This value is not a valid CSS color.", "Este valor no es un color CSS v\u00e1lido.", "validators", "es");
+t.add("This value is not a valid CIDR notation.", "Este valor no es una notaci\u00f3n CIDR v\u00e1lida.", "validators", "es");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "El valor de la m\u00e1scara de red deber\u00eda estar entre {{ min }} y {{ max }}.", "validators", "es");
 })(Translator);

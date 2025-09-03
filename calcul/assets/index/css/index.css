@@ -136,7 +136,7 @@
 }
 .home-overlay {
 	background-color: rgba(44, 62, 80, 0.3);
-	background-image: url(pattern.png);
+	background-image: url(pattern.png?version=1.0.0+no-version-set);
 	background-repeat: repeat;
 	height: 100%;
 	left: 0;
@@ -312,7 +312,7 @@
 }
 
 #status {
-	background-image: url(preloader.gif);
+	background-image: url(preloader.gif?version=1.0.0+no-version-set);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;

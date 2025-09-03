@@ -47,7 +47,7 @@ t.add("This value should be the user's current password.", "T\u00e1to hodnota by
 t.add("This value should have exactly {{ limit }} character.|This value should have exactly {{ limit }} characters.", "T\u00e1to hodnota by mala ma\u0165 presne {{ limit }} znak.|T\u00e1to hodnota by mala ma\u0165 presne {{ limit }} znaky.|T\u00e1to hodnota by mala ma\u0165 presne {{ limit }} znakov.", "validators", "sk");
 t.add("The file was only partially uploaded.", "Bola nahran\u00e1 len \u010das\u0165 s\u00faboru.", "validators", "sk");
 t.add("No file was uploaded.", "\u017diadny s\u00fabor nebol nahran\u00fd.", "validators", "sk");
-t.add("No temporary folder was configured in php.ini.", "V php.ini nie je nastaven\u00e1 cesta k adres\u00e1ru pre do\u010dasn\u00e9 s\u00fabory.", "validators", "sk");
+t.add("No temporary folder was configured in php.ini.", "V php.ini nie je nastaven\u00e1 cesta k address\u00e1ru pre do\u010dasn\u00e9 s\u00fabory.", "validators", "sk");
 t.add("Cannot write temporary file to disk.", "Do\u010dasn\u00fd s\u00fabor sa nepodarilo zap\u00edsa\u0165 na disk.", "validators", "sk");
 t.add("A PHP extension caused the upload to fail.", "Roz\u0161\u00edrenie PHP zabr\u00e1nilo nahraniu s\u00faboru.", "validators", "sk");
 t.add("This collection should contain {{ limit }} element or more.|This collection should contain {{ limit }} elements or more.", "T\u00e1to kolekcia by mala obsahova\u0165 aspo\u0148 {{ limit }} prvok alebo viac.|T\u00e1to kolekcia by mala obsahova\u0165 aspo\u0148 {{ limit }} prvky alebo viac.|T\u00e1to kolekcia by mala obsahova\u0165 aspo\u0148 {{ limit }} prvkov alebo viac.", "validators", "sk");
@@ -91,4 +91,13 @@ t.add("This value should be either negative or zero.", "T\u00e1to hodnota by mal
 t.add("This value is not a valid timezone.", "T\u00e1to hodnota nie je platn\u00e9 \u010dasov\u00e9 p\u00e1smo.", "validators", "sk");
 t.add("This password has been leaked in a data breach, it must not be used. Please use another password.", "Toto heslo uniklo pri naru\u0161en\u00ed ochrany d\u00e1t, nie je mo\u017en\u00e9 ho pou\u017ei\u0165. Pros\u00edm, pou\u017eite in\u00e9 heslo.", "validators", "sk");
 t.add("This value should be between {{ min }} and {{ max }}.", "T\u00e1to hodnota by mala by\u0165 medzi {{ min }} a {{ max }}.", "validators", "sk");
+t.add("This value is not a valid hostname.", "T\u00e1to hodnota nie je platn\u00fd hostname.", "validators", "sk");
+t.add("The number of elements in this collection should be a multiple of {{ compared_value }}.", "Po\u010det prvkov v tejto kolekcii mus\u00ed by\u0165 n\u00e1sobok {{ compared_value }}.", "validators", "sk");
+t.add("This value should satisfy at least one of the following constraints:", "T\u00e1to hodnota mus\u00ed sp\u013a\u0148a\u0165 aspo\u0148 jedno z nasleduj\u00facich obmedzen\u00ed:", "validators", "sk");
+t.add("Each element of this collection should satisfy its own set of constraints.", "Ka\u017ed\u00fd prvok v tejto kolekcii mus\u00ed sp\u013a\u0148a\u0165 svoje vlastn\u00e9 obmedzenia.", "validators", "sk");
+t.add("This value is not a valid International Securities Identification Number (ISIN).", "T\u00e1to hodnota nie je platn\u00e9 medzin\u00e1rodn\u00e9 ozna\u010denie cenn\u00e9ho papiera (ISIN).", "validators", "sk");
+t.add("This value should be a valid expression.", "T\u00e1to hodnota by mala by\u0165 platn\u00fdm v\u00fdrazom.", "validators", "sk");
+t.add("This value is not a valid CSS color.", "T\u00e1to hodnota nie je platn\u00e1 CSS farba.", "validators", "sk");
+t.add("This value is not a valid CIDR notation.", "T\u00e1to hodnota nie je platnou not\u00e1ciou CIDR.", "validators", "sk");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Hodnota masky siete by mala by\u0165 medzi {{ min }} a {{ max }}.", "validators", "sk");
 })(Translator);

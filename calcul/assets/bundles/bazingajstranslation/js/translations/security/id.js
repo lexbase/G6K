@@ -15,4 +15,8 @@ t.add("Account has expired.", "Akun telah berakhir.", "security", "id");
 t.add("Credentials have expired.", "Kredensial telah berakhir.", "security", "id");
 t.add("Account is disabled.", "Akun dinonaktifkan.", "security", "id");
 t.add("Account is locked.", "Akun terkunci.", "security", "id");
+t.add("Too many failed login attempts, please try again later.", "Terlalu banyak percobaan login yang salah, silahkan coba lagi nanti.", "security", "id");
+t.add("Invalid or expired login link.", "Link login salah atau sudah kedaluwarsa.", "security", "id");
+t.add("Too many failed login attempts, please try again in %minutes% minute.", "Terlalu banyak percobaan login yang salah, silahkan coba lagi dalam %minutes% menit.", "security", "id");
+t.add("Too many failed login attempts, please try again in %minutes% minutes.", "Terlalu banyak percobaan login yang salah, silahkan coba lagi dalam %minutes% menit.", "security", "id");
 })(Translator);

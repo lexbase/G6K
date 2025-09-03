@@ -15,4 +15,8 @@ t.add("Account has expired.", "Paskyros galiojimo laikas baig\u0117si.", "securi
 t.add("Credentials have expired.", "Autentifikacijos duomen\u0173 galiojimo laikas baig\u0117si.", "security", "lt");
 t.add("Account is disabled.", "Paskyra yra i\u0161jungta.", "security", "lt");
 t.add("Account is locked.", "Paskyra yra u\u017eblokuota.", "security", "lt");
+t.add("Too many failed login attempts, please try again later.", "Per daug nepavykusi\u0173 prisijungimo bandym\u0173, pabandykite dar kart\u0105 v\u0117liau.", "security", "lt");
+t.add("Invalid or expired login link.", "Netinkama arba pasibaigusio galiojimo laiko prisijungimo nuoroda.", "security", "lt");
+t.add("Too many failed login attempts, please try again in %minutes% minute.", "Per daug nepavykusi\u0173 prisijungimo bandym\u0173, pabandykite dar kart\u0105 po %minutes% minut\u0117s.", "security", "lt");
+t.add("Too many failed login attempts, please try again in %minutes% minutes.", "Per daug nepavykusi\u0173 prisijungimo bandym\u0173, pabandykite dar kart\u0105 po %minutes% minut\u0117s.|Per daug nepavykusi\u0173 prisijungimo bandym\u0173, pabandykite dar kart\u0105 po %minutes% minu\u010di\u0173.|Per daug nepavykusi\u0173 prisijungimo bandym\u0173, pabandykite dar kart\u0105 po %minutes% minu\u010di\u0173.", "security", "lt");
 })(Translator);

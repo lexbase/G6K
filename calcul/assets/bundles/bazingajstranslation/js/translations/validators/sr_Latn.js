@@ -75,7 +75,7 @@ t.add("The image is square ({{ width }}x{{ height }}px). Square images are not a
 t.add("The image is landscape oriented ({{ width }}x{{ height }}px). Landscape oriented images are not allowed.", "Slika je pejza\u017eno orijentisana ({{ width }}x{{ height }} piksela). Pejza\u017ena orijentisane slike nisu dozvoljene.", "validators", "sr_Latn");
 t.add("The image is portrait oriented ({{ width }}x{{ height }}px). Portrait oriented images are not allowed.", "Slika je portretno orijentisana ({{ width }}x{{ height }} piksela). Portretno orijentisane slike nisu dozvoljene.", "validators", "sr_Latn");
 t.add("An empty file is not allowed.", "Prazna datoteka nije dozvoljena.", "validators", "sr_Latn");
-t.add("The host could not be resolved.", "Nije mogu\u0107e odrediti poslu\u017eitelja.", "validators", "sr_Latn");
+t.add("The host could not be resolved.", "Ime hosta ne mo\u017ee biti razre\u0161eno.", "validators", "sr_Latn");
 t.add("This value does not match the expected {{ charset }} charset.", "Vrednost se ne poklapa sa o\u010dekivanim {{ charset }} setom karaktera.", "validators", "sr_Latn");
 t.add("This is not a valid Business Identifier Code (BIC).", "Ovo nije validan BIC.", "validators", "sr_Latn");
 t.add("Error", "Gre\u0161ka", "validators", "sr_Latn");
@@ -91,4 +91,13 @@ t.add("This value should be either negative or zero.", "Ova vrednost bi trebala 
 t.add("This value is not a valid timezone.", "Ova vrednost nije validna vremenska zona.", "validators", "sr_Latn");
 t.add("This password has been leaked in a data breach, it must not be used. Please use another password.", "Ova lozinka je kompromitovana prilikom prethodnih napada, nemojte je koristiti. Koristite drugu lozinku.", "validators", "sr_Latn");
 t.add("This value should be between {{ min }} and {{ max }}.", "Ova vrednost treba da bude izme\u0111u {{ min }} i {{ max }}.", "validators", "sr_Latn");
+t.add("This value is not a valid hostname.", "Ova vrednost nije ispravno ime poslu\u017eitelja (hostname).", "validators", "sr_Latn");
+t.add("The number of elements in this collection should be a multiple of {{ compared_value }}.", "Broj elemenata u ovoj kolekciji bi trebalo da bude deljiv sa {{ compared_value }}.", "validators", "sr_Latn");
+t.add("This value should satisfy at least one of the following constraints:", "Ova vrednost bi trebalo da zadovoljava namjanje jedno od narednih ograni\u010denja:", "validators", "sr_Latn");
+t.add("Each element of this collection should satisfy its own set of constraints.", "Svaki element ove kolekcije bi trebalo da zadovolji sopstveni skup ograni\u010denja.", "validators", "sr_Latn");
+t.add("This value is not a valid International Securities Identification Number (ISIN).", "Ova vrednost nije ispravna me\u0111unarodna identifikaciona oznaka hartija od vrednosti (ISIN).", "validators", "sr_Latn");
+t.add("This value should be a valid expression.", "Ova vrednost treba da bude validan izraz.", "validators", "sr_Latn");
+t.add("This value is not a valid CSS color.", "Ova vrednost nije ispravna CSS boja.", "validators", "sr_Latn");
+t.add("This value is not a valid CIDR notation.", "Ova vrednost nije ispravna CIDR notacija.", "validators", "sr_Latn");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Vrednost mre\u017ene maske treba biti izme\u0111u {{ min }} i {{ max }}.", "validators", "sr_Latn");
 })(Translator);

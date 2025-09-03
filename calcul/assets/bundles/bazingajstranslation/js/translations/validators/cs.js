@@ -95,4 +95,9 @@ t.add("This value is not a valid hostname.", "Tato hodnota nen\u00ed platn\u00fd
 t.add("The number of elements in this collection should be a multiple of {{ compared_value }}.", "Po\u010det prvk\u016f v t\u00e9to kolekci mus\u00ed b\u00fdt n\u00e1sobek {{ compared_value }}.", "validators", "cs");
 t.add("This value should satisfy at least one of the following constraints:", "Tato hodnota mus\u00ed spl\u0148ovat alespo\u0148 jedno z n\u00e1sleduj\u00edc\u00edch omezen\u00ed:", "validators", "cs");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Ka\u017ed\u00fd prvek v t\u00e9to kolekci mus\u00ed spl\u0148ovat sv\u00e1 vlastn\u00ed omezen\u00ed.", "validators", "cs");
+t.add("This value is not a valid International Securities Identification Number (ISIN).", "Tato hodnota nen\u00ed platn\u00e9 mezin\u00e1rodn\u00ed identifika\u010dn\u00ed \u010d\u00edslo cenn\u00e9ho pap\u00edru (ISIN).", "validators", "cs");
+t.add("This value should be a valid expression.", "Tato hodnota mus\u00ed b\u00fdt platn\u00fd v\u00fdraz.", "validators", "cs");
+t.add("This value is not a valid CSS color.", "Tato hodnota nen\u00ed platn\u00e1 barva CSS.", "validators", "cs");
+t.add("This value is not a valid CIDR notation.", "Tato hodnota nen\u00ed platn\u00e1 notace CIDR.", "validators", "cs");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Hodnota masky s\u00edt\u011b mus\u00ed b\u00fdt mezi {{ min }} a {{ max }}.", "validators", "cs");
 })(Translator);

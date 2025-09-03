@@ -15,4 +15,8 @@ t.add("Account has expired.", "Ra\u010dun je potekel.", "security", "sl");
 t.add("Credentials have expired.", "Poverilnice so potekle.", "security", "sl");
 t.add("Account is disabled.", "Ra\u010dun je onemogo\u010den.", "security", "sl");
 t.add("Account is locked.", "Ra\u010dun je zaklenjen.", "security", "sl");
+t.add("Too many failed login attempts, please try again later.", "Preve\u010d neuspelih poskusov prijave, poskusite znova pozneje.", "security", "sl");
+t.add("Invalid or expired login link.", "Neveljavna ali potekla povezava prijave.", "security", "sl");
+t.add("Too many failed login attempts, please try again in %minutes% minute.", "Preve\u010d neuspelih poskusov prijave, poskusite znova \u010dez %minutes% minuto.", "security", "sl");
+t.add("Too many failed login attempts, please try again in %minutes% minutes.", "Preve\u010d neuspelih poskusov prijave, poskusite znova \u010dez %minutes% minut.", "security", "sl");
 })(Translator);

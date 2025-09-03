@@ -96,4 +96,8 @@ t.add("The number of elements in this collection should be a multiple of {{ comp
 t.add("This value should satisfy at least one of the following constraints:", "Gi\u00e1 tr\u1ecb n\u00e0y n\u00ean th\u1ecfa m\u00e3n \u00edt nh\u1ea5t m\u1ed9t trong nh\u1eefng r\u00e0ng bu\u1ed9c sau:", "validators", "vi");
 t.add("Each element of this collection should satisfy its own set of constraints.", "M\u1ed7i ph\u1ea7n t\u1eed trong b\u1ed9 s\u01b0u t\u1eadp n\u00e0y n\u00ean th\u1ecfa m\u00e3n nh\u1eefng r\u00e0ng bu\u1ed9c c\u1ee7a n\u00f3.", "validators", "vi");
 t.add("This value is not a valid International Securities Identification Number (ISIN).", "Gi\u00e1 tr\u1ecb n\u00e0y kh\u00f4ng ph\u1ea3i l\u00e0 m\u00e3 s\u1ed1 ch\u1ee9ng kho\u00e1n qu\u1ed1c t\u1ebf (ISIN) h\u01a1\u0323p l\u00ea\u0323.", "validators", "vi");
+t.add("This value should be a valid expression.", "Gi\u00e1 tr\u1ecb n\u00e0y ph\u1ea3i l\u00e0 m\u1ed9t bi\u1ec3u th\u1ee9c h\u1ee3p l\u1ec7.", "validators", "vi");
+t.add("This value is not a valid CSS color.", "Gi\u00e1 tr\u1ecb n\u00e0y kh\u00f4ng ph\u1ea3i l\u00e0 m\u00e0u CSS h\u1ee3p l\u1ec7.", "validators", "vi");
+t.add("This value is not a valid CIDR notation.", "Gi\u00e1 tr\u1ecb n\u00e0y kh\u00f4ng ph\u1ea3i l\u00e0 k\u00fd hi\u1ec7u CIDR h\u1ee3p l\u1ec7.", "validators", "vi");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Gi\u00e1 tr\u1ecb c\u1ee7a m\u1eb7t n\u1ea1 m\u1ea1ng ph\u1ea3i n\u1eb1m trong kho\u1ea3ng t\u1eeb {{ min }} \u0111\u1ebfn {{ max }}.", "validators", "vi");
 })(Translator);

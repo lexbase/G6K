@@ -32,11 +32,11 @@ t.add("The file is too large. Allowed maximum size is {{ limit }} {{ suffix }}."
 t.add("The file is too large.", "Byla per didel\u0117.", "validators", "lt");
 t.add("The file could not be uploaded.", "Byla negali b\u016bti \u012fkelta.", "validators", "lt");
 t.add("This value should be a valid number.", "\u0160i reik\u0161m\u0117 turi b\u016bti skai\u010dius.", "validators", "lt");
-t.add("This value is not a valid country.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkama \u0161alis.", "validators", "lt");
 t.add("This file is not a valid image.", "Byla n\u0117ra paveiksl\u0117lis.", "validators", "lt");
 t.add("This is not a valid IP address.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkamas IP adresas.", "validators", "lt");
 t.add("This value is not a valid language.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkama kalba.", "validators", "lt");
 t.add("This value is not a valid locale.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkama lokal\u0117.", "validators", "lt");
+t.add("This value is not a valid country.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkama \u0161alis.", "validators", "lt");
 t.add("This value is already used.", "\u0160i reik\u0161m\u0117 jau yra naudojama.", "validators", "lt");
 t.add("The size of the image could not be detected.", "Nepavyko nustatyti nuotraukos dyd\u017eio.", "validators", "lt");
 t.add("The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px.", "Nuotraukos plotis per didelis ({{ width }}px). Maksimalus leid\u017eiamas plotis yra {{ max_width }}px.", "validators", "lt");
@@ -96,4 +96,8 @@ t.add("The number of elements in this collection should be a multiple of {{ comp
 t.add("This value should satisfy at least one of the following constraints:", "\u0160i reik\u0161m\u0117 tur\u0117t\u0173 atitikti bent vien\u0105 i\u0161 \u0161i\u0173 nurodym\u0173:", "validators", "lt");
 t.add("Each element of this collection should satisfy its own set of constraints.", "Kiekvienas \u0161io s\u0105ra\u0161o elementas turi atitikti savo nurodym\u0173 rinkin\u012f.", "validators", "lt");
 t.add("This value is not a valid International Securities Identification Number (ISIN).", "\u0160i rei\u0161m\u0117 neatitinka tarptautinio vertybini\u0173 popieri\u0173 identifikavimo numerio formato (ISIN).", "validators", "lt");
+t.add("This value should be a valid expression.", "\u0160i vert\u0117 tur\u0117t\u0173 b\u016bti teisinga i\u0161rai\u0161ka.", "validators", "lt");
+t.add("This value is not a valid CSS color.", "\u0160i reik\u0161m\u0117 n\u0117ra tinkama CSS spalva.", "validators", "lt");
+t.add("This value is not a valid CIDR notation.", "\u0160i vert\u0117 n\u0117ra tinkamas CIDR \u017eym\u0117jimas.", "validators", "lt");
+t.add("The value of the netmask should be between {{ min }} and {{ max }}.", "Tinklo kauk\u0117s reik\u0161m\u0117 turi b\u016bti nuo {{ min }} iki {{ max }}.", "validators", "lt");
 })(Translator);

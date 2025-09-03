@@ -1,5 +1,5 @@
 header {
-	background-image: url(images/g6k-logo.png);
+	background-image: url(images/g6k-logo.png?version=1.0.0+no-version-set);
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -424,7 +424,7 @@ main .container p a[target=_blank]:after {
   border: none; 
   background: transparent;
 }
-@font-face { font-family: 'fonticon'; src: url("../webfonts/fonticon/fonticon.eot?-765im2"); src: url("../webfonts/fonticon/fonticon.eot?#iefixe-765im2") format("embedded-opentype"), url("../webfonts/fonticon/fonticon.woff?-765im2") format("woff"), url("../webfonts/fonticon/fonticon.ttf?-765im2") format("truetype"), url("../webfonts/fonticon/fonticon.svg?-765im2#fonticon") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'fonticon'; src: url("../webfonts/fonticon/fonticon.eot?-765im2&version=1.0.0+no-version-set"); src: url("../webfonts/fonticon/fonticon.eot?#iefixe-765im2") format("embedded-opentype"), url("../webfonts/fonticon/fonticon.woff?-765im2&version=1.0.0+no-version-set") format("woff"), url("../webfonts/fonticon/fonticon.ttf?-765im2&version=1.0.0+no-version-set") format("truetype"), url("../webfonts/fonticon/fonticon.svg?-765im2#fonticon&version=1.0.0+no-version-set") format("svg"); font-weight: normal; font-style: normal; }
 
 .icon { font-family: 'fonticon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .icon-help:before { 

@@ -1,5 +1,5 @@
 body {
-	background:url(../images/login.jpeg) center center fixed no-repeat;
+	background:url(../images/login.jpeg?version=1.0.0+no-version-set) center center fixed no-repeat;
 	background-size: cover;
 }
 body > h1 {

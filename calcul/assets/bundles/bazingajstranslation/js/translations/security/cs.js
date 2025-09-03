@@ -15,4 +15,8 @@ t.add("Account has expired.", "Platnost \u00fa\u010dtu vypr\u0161ela.", "securit
 t.add("Credentials have expired.", "Platnost p\u0159ihla\u0161ovac\u00edch \u00fadaj\u016f vypr\u0161ela.", "security", "cs");
 t.add("Account is disabled.", "\u00da\u010det je zak\u00e1zan\u00fd.", "security", "cs");
 t.add("Account is locked.", "\u00da\u010det je zablokovan\u00fd.", "security", "cs");
+t.add("Too many failed login attempts, please try again later.", "P\u0159\u00edli\u0161 mnoho nepoveden\u00fdch pokus\u016f p\u0159ihl\u00e1\u0161en\u00ed. Zkuste to pros\u00edm pozd\u011bji.", "security", "cs");
+t.add("Invalid or expired login link.", "Neplatn\u00fd nebo expirovan\u00fd odkaz na p\u0159ihl\u00e1\u0161en\u00ed.", "security", "cs");
+t.add("Too many failed login attempts, please try again in %minutes% minute.", "P\u0159\u00edli\u0161 mnoho ne\u00fasp\u011b\u0161n\u00fdch pokus\u016f o p\u0159ihl\u00e1\u0161en\u00ed, zkuste to pros\u00edm znovu za %minutes% minutu.", "security", "cs");
+t.add("Too many failed login attempts, please try again in %minutes% minutes.", "P\u0159\u00edli\u0161 mnoho ne\u00fasp\u011b\u0161n\u00fdch pokus\u016f o p\u0159ihl\u00e1\u0161en\u00ed, zkuste to pros\u00edm znovu za %minutes% minut.", "security", "cs");
 })(Translator);
